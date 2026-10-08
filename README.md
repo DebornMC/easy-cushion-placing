@@ -4,6 +4,6 @@ In vanilla Minecraft, placing cushions at a specific height involves placing a s
 
 Easy Cushion Placing aims to make cushion placement easier by allowing the player to shift click to place a cushion on top of another cushion.
 
-This mod does not allow players to place cushions where the cushion would pop off, so the cushion still requires a block to support it.
+![Video showing a player placing cushions on top of each other on a fence to create a table, and placing many different colored cushions inside a door](res/placement-demo.gif)
 
-![Video showing a player placing cushions on top of each other on a fence to create a table, and placing many different colored cushions inside a door](res/placement-demo.webm)
+This mod does not allow players to place cushions where the cushion would pop off, the cushion still requires a block to support it.
