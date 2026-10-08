@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "easy-cushion-placing",
+  "version": "${version}",
+  "name": "Easy Cushion Placing",
+  "description": "Shift Click to place cushions on top of each other!",
+  "authors": [
+    "deborn"
+  ],
+  "contact": {
+    "sources": "https://github.com/DebornMC/easy-cushion-placing"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/easy-cushion-placing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "deborn.easycushionplacing.EasyCushionPlacing"
+    ]
+  },
+  "mixins": [
+    "easy-cushion-placing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

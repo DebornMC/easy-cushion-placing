@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "deborn.easycushionplacing.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "StackCushionsMixin",
+    "CushionPlacementMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
