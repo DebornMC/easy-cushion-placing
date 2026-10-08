@@ -43,28 +43,4 @@ public class StackCushionsMixin {
         BlockHitResult hitResult = new BlockHitResult(pos, Direction.UP, BlockPos.containing(pos), false);
         cir.setReturnValue(heldStack.useOn(new UseOnContext(player, hand, hitResult)));
     }
-
-    @ModifyReturnValue(
-        method = "survives()Z",
-        at = @At("RETURN")
-    )
-    private boolean allowStackedCushions(boolean survives) {
-    if (survives)
-        return true;
-
-    Cushion self = (Cushion) (Object) this;
-    AABB box = self.getBoundingBox();
-    AABB anchorBox = new AABB(
-        box.minX,
-        box.minY - 0.015625,
-        box.minZ,
-        Math.nextDown(box.maxX),
-        box.minY,
-        Math.nextDown(box.maxZ));
-
-    return self.level().hasEntities(
-        EntityTypeTest.forClass(Cushion.class),
-        anchorBox,
-        other -> other != self);
-    }
 }

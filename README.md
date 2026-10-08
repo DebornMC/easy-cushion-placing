@@ -1,9 +1,9 @@
 # Easy Cushion Placing
 
-## Setup
+In vanilla Minecraft, placing cushions at a specific height involves placing a specific block of a certain height, then quickly breaking and replacing the block with another block. This process can get rather tedious when having to place many cushions at specific height levels.
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Easy Cushion Placing aims to make cushion placement easier by allowing the player to shift click to place a cushion on top of another cushion.
 
-## License
+This mod does not allow players to place cushions where the cushion would pop off, so the cushion still requires a block to support it.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+![Video showing a player placing cushions on top of each other on a fence to create a table, and placing many different colored cushions inside a door](res/placement-demo.webm)
